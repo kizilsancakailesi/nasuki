@@ -364,7 +364,7 @@ async def m_cb(b, cb):
 @authorized_users_only
 async def play(_, message: Message):
     global que
-    lel = await message.reply("🔄 **Processing**")
+    lel = await message.reply("🔄 **Processsing**")
 
     try:
       conchat = await _.get_chat(message.chat.id)
